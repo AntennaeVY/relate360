@@ -98,6 +98,7 @@ export const authProvider: AuthBindings = {
     const accessToken = localStorage.getItem("access_token");
 
     try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const { data } = await dataProvider.custom<{ me: any }>({
         url: API_URL,
         method: "post",
