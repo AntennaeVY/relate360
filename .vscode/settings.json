@@ -1,6 +1,7 @@
 {
 	"conventionalCommits.scopes": [
 		"providers",
-		"layout"
+		"layout",
+		"dashboard"
 	]
 }
